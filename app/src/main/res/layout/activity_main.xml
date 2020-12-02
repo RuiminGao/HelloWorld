@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFAB91"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvGreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text="Hello from Ruimin!"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btnChangeTextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#81D4FA"
+            android:textColor="@color/white"
+            android:text="CHANGE TEXT COLOR" />
+
+        <Button
+            android:id="@+id/btnChangeBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#81D4FA"
+            android:text="CHANGE VIEW COLOR"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnChangeStr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#81D4FA"
+            android:textColor="@color/white"
+            android:text="CHANGE TEXT STRING" />
+
+        <EditText
+            android:id="@+id/etChangeStr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Type the string here!"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"  />
+
+    </LinearLayout>
+
+</RelativeLayout>
